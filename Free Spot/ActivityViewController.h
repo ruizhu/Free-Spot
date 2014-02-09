@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ActivityViewController.h
 //  Free Spot
 //
 //  Created by Rui Zhu on 14-2-9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ActivityViewController : UIViewController
 
 @end

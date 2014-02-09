@@ -1,25 +1,23 @@
 //
-//  FirstViewController.m
+//  UserViewController.m
 //  Free Spot
 //
 //  Created by Rui Zhu on 14-2-9.
 //  Copyright (c) 2014年 Rui Zhu. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "UserViewController.h"
 
-@interface FirstViewController ()
+@interface UserViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation UserViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    // This is a test change
 }
 
 - (void)didReceiveMemoryWarning

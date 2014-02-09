@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FriendsViewController.h
 //  Free Spot
 //
 //  Created by Rui Zhu on 14-2-9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ContactViewController : UIViewController
 
 @end
