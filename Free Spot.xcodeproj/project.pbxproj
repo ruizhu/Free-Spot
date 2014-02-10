@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67011DD518A8867800840E28 /* Activity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD418A8867800840E28 /* Activity.plist */; };
+		67011DD718A8868500840E28 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD618A8868500840E28 /* User.plist */; };
+		67011DD918A8869F00840E28 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD818A8869F00840E28 /* Settings.plist */; };
 		679A526B18A844CD00FC6C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526A18A844CD00FC6C60 /* Foundation.framework */; };
 		679A526D18A844CD00FC6C60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526C18A844CD00FC6C60 /* CoreGraphics.framework */; };
 		679A526F18A844CD00FC6C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526E18A844CD00FC6C60 /* UIKit.framework */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67011DD418A8867800840E28 /* Activity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Activity.plist; sourceTree = "<group>"; };
+		67011DD618A8868500840E28 /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
+		67011DD818A8869F00840E28 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		679A526718A844CD00FC6C60 /* Free Spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		679A526A18A844CD00FC6C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		679A526C18A844CD00FC6C60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +154,9 @@
 			children = (
 				679A527218A844CD00FC6C60 /* Free Spot-Info.plist */,
 				679A527318A844CD00FC6C60 /* InfoPlist.strings */,
+				67011DD418A8867800840E28 /* Activity.plist */,
+				67011DD618A8868500840E28 /* User.plist */,
+				67011DD818A8869F00840E28 /* Settings.plist */,
 				679A527618A844CD00FC6C60 /* main.m */,
 				679A527818A844CD00FC6C60 /* Free Spot-Prefix.pch */,
 			);
@@ -249,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				679A528618A844CD00FC6C60 /* Images.xcassets in Resources */,
+				67011DD518A8867800840E28 /* Activity.plist in Resources */,
 				679A527518A844CD00FC6C60 /* InfoPlist.strings in Resources */,
+				67011DD718A8868500840E28 /* User.plist in Resources */,
 				679A527E18A844CD00FC6C60 /* Main.storyboard in Resources */,
+				67011DD918A8869F00840E28 /* Settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

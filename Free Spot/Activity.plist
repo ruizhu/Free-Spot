@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Wells Library Study</key>
+	<string>3pm-5pm</string>
+	<key>Dinner Downtown</key>
+	<string>6-7pm</string>
+	<key>Pool at IMU</key>
+	<string>8-9pm</string>
+	<key>Lunch at Lucky</key>
+	<string>11:30am-1pm</string>
+	<key>Fun in Mcnutt</key>
+	<string>4-6pm</string>
+	<key>Study Session Wells Library</key>
+	<string>6-9pm</string>
+</dict>
+</plist>
