@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Rob</key>
+	<string>Easy come, easy go.</string>
+	<key>Red Tie</key>
+	<string>Soooooooooo Boring!!</string>
+	<key>Queen</key>
+	<string>Party at 10th St. Every friday, $5 each person!</string>
+	<key>RayZZZ</key>
+	<string>Talk less, do more.</string>
+	<key>LLLLLin</key>
+	<string>make it simple.</string>
+	<key>vivian winston</key>
+	<string>Study your A100! FInal is coming!</string>
+	<key>BlingBling HE</key>
+	<string>Hate Tests.</string>
+</dict>
 </plist>

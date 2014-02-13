@@ -8,16 +8,35 @@
 
 #import "UserViewController.h"
 
-@interface UserViewController ()
+@interface UserViewController () {
+    NSDictionary *userList;
+    NSArray *justUserName;
+}
 
 @end
 
 @implementation UserViewController
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return userList.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"userCell"];
+    cell.textLabel.text = justUserName[indexPath.row];
+    cell.detailTextLabel.text = userList[justUserName[indexPath.row]];
+    return cell;
+}
+
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"User" withExtension:@".plist"];
+    userList = [NSDictionary dictionaryWithContentsOfURL:url];
+    justUserName = userList.allKeys;
 }
 
 - (void)didReceiveMemoryWarning

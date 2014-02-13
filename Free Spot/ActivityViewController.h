@@ -10,8 +10,6 @@
 
 @interface ActivityViewController : UITableViewController
 
-//kanghong's change
-//Kuntola's second change
-//rui's change
+
 
 @end

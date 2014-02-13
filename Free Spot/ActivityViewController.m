@@ -14,8 +14,6 @@
     NSMutableArray *_objects;
 }
 
-
-
 @end
 
 @implementation ActivityViewController
