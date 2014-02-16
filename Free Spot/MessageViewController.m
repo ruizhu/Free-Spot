@@ -8,7 +8,10 @@
 
 #import "MessageViewController.h"
 
-@interface MessageViewController ()
+@interface MessageViewController () {
+    NSDictionary *messageList;
+    NSArray *justMessageTitle;
+}
 
 @end
 
@@ -23,10 +26,24 @@
     return self;
 }
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return messageList.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"messageCell"];
+    cell.textLabel.text = justMessageTitle[indexPath.row];
+    cell.detailTextLabel.text = messageList[justMessageTitle[indexPath.row]];
+    return cell;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"Message" withExtension:@".plist"];
+    messageList = [NSDictionary dictionaryWithContentsOfURL:url];
+    justMessageTitle = messageList.allKeys;
 }
 
 - (void)didReceiveMemoryWarning
