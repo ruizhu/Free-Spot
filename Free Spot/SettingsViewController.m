@@ -71,11 +71,7 @@
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    if (section == 0) {
-        return @"User Settings";
-    } else  {
-        return @"User Settings";
-    }
+        return @"Settings";
 }
 
 /*
