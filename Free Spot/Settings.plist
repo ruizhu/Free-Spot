@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Notification Settings</key>
+	<string></string>
+	<key>Invisiable Mode</key>
+	<string></string>
+	<key>Account Settings</key>
+	<string></string>
+	<key>Block List</key>
+	<string></string>
+</dict>
 </plist>

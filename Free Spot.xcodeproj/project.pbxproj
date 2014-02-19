@@ -11,7 +11,12 @@
 		67011DD718A8868500840E28 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD618A8868500840E28 /* User.plist */; };
 		67011DD918A8869F00840E28 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD818A8869F00840E28 /* Settings.plist */; };
 		676FF39918B15695008406C5 /* Message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39818B15695008406C5 /* Message.plist */; };
-		676FF39B18B15BAB008406C5 /* Friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39A18B15BAB008406C5 /* Friends.plist */; };
+		676FF39B18B15BAB008406C5 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39A18B15BAB008406C5 /* Contacts.plist */; };
+		679A395718B446F600D15585 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395618B446F600D15585 /* ContactViewController.m */; };
+		679A395A18B44A4800D15585 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395918B44A4800D15585 /* UserViewController.m */; };
+		679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395C18B44A5C00D15585 /* ActivityViewController.m */; };
+		679A396018B44A6D00D15585 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395F18B44A6D00D15585 /* MessageViewController.m */; };
+		679A396318B4510200D15585 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A396218B4510200D15585 /* SettingsViewController.m */; };
 		679A526B18A844CD00FC6C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526A18A844CD00FC6C60 /* Foundation.framework */; };
 		679A526D18A844CD00FC6C60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526C18A844CD00FC6C60 /* CoreGraphics.framework */; };
 		679A526F18A844CD00FC6C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526E18A844CD00FC6C60 /* UIKit.framework */; };
@@ -19,17 +24,12 @@
 		679A527718A844CD00FC6C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A527618A844CD00FC6C60 /* main.m */; };
 		679A527B18A844CD00FC6C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A527A18A844CD00FC6C60 /* AppDelegate.m */; };
 		679A527E18A844CD00FC6C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679A527C18A844CD00FC6C60 /* Main.storyboard */; };
-		679A528118A844CD00FC6C60 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A528018A844CD00FC6C60 /* ActivityViewController.m */; };
-		679A528418A844CD00FC6C60 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A528318A844CD00FC6C60 /* UserViewController.m */; };
 		679A528618A844CD00FC6C60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679A528518A844CD00FC6C60 /* Images.xcassets */; };
 		679A528D18A844CD00FC6C60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A528C18A844CD00FC6C60 /* XCTest.framework */; };
 		679A528E18A844CD00FC6C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526A18A844CD00FC6C60 /* Foundation.framework */; };
 		679A528F18A844CD00FC6C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A526E18A844CD00FC6C60 /* UIKit.framework */; };
 		679A529718A844CD00FC6C60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 679A529518A844CD00FC6C60 /* InfoPlist.strings */; };
 		679A529918A844CD00FC6C60 /* Free_SpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A529818A844CD00FC6C60 /* Free_SpotTests.m */; };
-		67D8E96A18A847C100E57111 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8E96918A847C100E57111 /* MessageViewController.m */; };
-		67D8E96D18A847F000E57111 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8E96C18A847F000E57111 /* ContactViewController.m */; };
-		67D8E97018A847FD00E57111 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8E96F18A847FD00E57111 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,17 @@
 		67011DD618A8868500840E28 /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
 		67011DD818A8869F00840E28 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		676FF39818B15695008406C5 /* Message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Message.plist; sourceTree = "<group>"; };
-		676FF39A18B15BAB008406C5 /* Friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Friends.plist; sourceTree = "<group>"; };
+		676FF39A18B15BAB008406C5 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
+		679A395518B446F600D15585 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		679A395618B446F600D15585 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		679A395818B44A4800D15585 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		679A395918B44A4800D15585 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		679A395B18B44A5C00D15585 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		679A395C18B44A5C00D15585 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		679A395E18B44A6D00D15585 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		679A395F18B44A6D00D15585 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		679A396118B4510200D15585 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		679A396218B4510200D15585 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		679A526718A844CD00FC6C60 /* Free Spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		679A526A18A844CD00FC6C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		679A526C18A844CD00FC6C60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,22 +69,12 @@
 		679A527918A844CD00FC6C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		679A527A18A844CD00FC6C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		679A527D18A844CD00FC6C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		679A527F18A844CD00FC6C60 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
-		679A528018A844CD00FC6C60 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
-		679A528218A844CD00FC6C60 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
-		679A528318A844CD00FC6C60 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		679A528518A844CD00FC6C60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		679A528B18A844CD00FC6C60 /* Free SpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free SpotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		679A528C18A844CD00FC6C60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		679A529418A844CD00FC6C60 /* Free SpotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Free SpotTests-Info.plist"; sourceTree = "<group>"; };
 		679A529618A844CD00FC6C60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		679A529818A844CD00FC6C60 /* Free_SpotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Free_SpotTests.m; sourceTree = "<group>"; };
-		67D8E96818A847C100E57111 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		67D8E96918A847C100E57111 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
-		67D8E96B18A847F000E57111 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
-		67D8E96C18A847F000E57111 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
-		67D8E96E18A847FC00E57111 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		67D8E96F18A847FD00E57111 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,16 +137,16 @@
 				679A527918A844CD00FC6C60 /* AppDelegate.h */,
 				679A527A18A844CD00FC6C60 /* AppDelegate.m */,
 				679A527C18A844CD00FC6C60 /* Main.storyboard */,
-				679A527F18A844CD00FC6C60 /* ActivityViewController.h */,
-				679A528018A844CD00FC6C60 /* ActivityViewController.m */,
-				679A528218A844CD00FC6C60 /* UserViewController.h */,
-				679A528318A844CD00FC6C60 /* UserViewController.m */,
-				67D8E96818A847C100E57111 /* MessageViewController.h */,
-				67D8E96918A847C100E57111 /* MessageViewController.m */,
-				67D8E96B18A847F000E57111 /* ContactViewController.h */,
-				67D8E96C18A847F000E57111 /* ContactViewController.m */,
-				67D8E96E18A847FC00E57111 /* SettingsViewController.h */,
-				67D8E96F18A847FD00E57111 /* SettingsViewController.m */,
+				679A395B18B44A5C00D15585 /* ActivityViewController.h */,
+				679A395C18B44A5C00D15585 /* ActivityViewController.m */,
+				679A395818B44A4800D15585 /* UserViewController.h */,
+				679A395918B44A4800D15585 /* UserViewController.m */,
+				679A395E18B44A6D00D15585 /* MessageViewController.h */,
+				679A395F18B44A6D00D15585 /* MessageViewController.m */,
+				679A395518B446F600D15585 /* ContactViewController.h */,
+				679A395618B446F600D15585 /* ContactViewController.m */,
+				679A396118B4510200D15585 /* SettingsViewController.h */,
+				679A396218B4510200D15585 /* SettingsViewController.m */,
 				679A528518A844CD00FC6C60 /* Images.xcassets */,
 				679A527118A844CD00FC6C60 /* Supporting Files */,
 			);
@@ -161,7 +161,7 @@
 				67011DD418A8867800840E28 /* Activity.plist */,
 				67011DD618A8868500840E28 /* User.plist */,
 				676FF39818B15695008406C5 /* Message.plist */,
-				676FF39A18B15BAB008406C5 /* Friends.plist */,
+				676FF39A18B15BAB008406C5 /* Contacts.plist */,
 				67011DD818A8869F00840E28 /* Settings.plist */,
 				679A527618A844CD00FC6C60 /* main.m */,
 				679A527818A844CD00FC6C60 /* Free Spot-Prefix.pch */,
@@ -265,7 +265,7 @@
 			files = (
 				679A528618A844CD00FC6C60 /* Images.xcassets in Resources */,
 				67011DD518A8867800840E28 /* Activity.plist in Resources */,
-				676FF39B18B15BAB008406C5 /* Friends.plist in Resources */,
+				676FF39B18B15BAB008406C5 /* Contacts.plist in Resources */,
 				679A527518A844CD00FC6C60 /* InfoPlist.strings in Resources */,
 				67011DD718A8868500840E28 /* User.plist in Resources */,
 				679A527E18A844CD00FC6C60 /* Main.storyboard in Resources */,
@@ -289,13 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D8E96D18A847F000E57111 /* ContactViewController.m in Sources */,
-				679A528418A844CD00FC6C60 /* UserViewController.m in Sources */,
-				67D8E96A18A847C100E57111 /* MessageViewController.m in Sources */,
+				679A395718B446F600D15585 /* ContactViewController.m in Sources */,
+				679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */,
+				679A395A18B44A4800D15585 /* UserViewController.m in Sources */,
 				679A527B18A844CD00FC6C60 /* AppDelegate.m in Sources */,
-				679A528118A844CD00FC6C60 /* ActivityViewController.m in Sources */,
 				679A527718A844CD00FC6C60 /* main.m in Sources */,
-				67D8E97018A847FD00E57111 /* SettingsViewController.m in Sources */,
+				679A396018B44A6D00D15585 /* MessageViewController.m in Sources */,
+				679A396318B4510200D15585 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
