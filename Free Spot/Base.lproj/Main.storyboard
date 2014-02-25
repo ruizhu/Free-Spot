@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5gn-r7-j19">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -99,9 +99,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="ESH-Mg-MFc">
+                            <rect key="frame" x="0.0" y="64" width="320" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="81t-I0-rBg">
+                                    <rect key="frame" x="20" y="4" width="280" height="29"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <segments>
+                                        <segment title="List"/>
+                                        <segment title="Map"/>
+                                    </segments>
+                                </segmentedControl>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="userCell" textLabel="4Qg-8v-iDn" detailTextLabel="slJ-af-vlT" imageView="h7y-e2-bPy" rowHeight="75" style="IBUITableViewCellStyleSubtitle" id="awd-SY-5Vn">
-                                <rect key="frame" x="0.0" y="86" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="122" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="awd-SY-5Vn" id="o9T-QH-2VX">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="74"/>
@@ -148,16 +163,6 @@
                                 </state>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Cjc-g1-s3p">
-                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="MgU-nt-2a4">
-                                <rect key="frame" x="233" y="7" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="List"/>
-                                    <segment title="Map"/>
-                                </segments>
-                            </segmentedControl>
-                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrl-mM-Xje" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -195,6 +200,7 @@
         <scene sceneID="Vex-rW-GRa">
             <objects>
                 <tabBarController id="8YX-ce-x5E" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fEN-rk-DRp"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="JQR-rB-NYL">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -213,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="-1846" y="60"/>
         </scene>
-        <!--Message View Controller-->
+        <!--Message View Controller - Message-->
         <scene sceneID="Nn6-yh-dmP">
             <objects>
                 <tableViewController id="fFa-GS-DLa" customClass="MessageViewController" sceneMemberID="viewController">
@@ -271,7 +277,7 @@
                             <outlet property="delegate" destination="fFa-GS-DLa" id="Du0-2K-84g"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="9K1-sU-lcx">
+                    <navigationItem key="navigationItem" title="Message" id="9K1-sU-lcx">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="VQb-ga-Ud5">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zao-Yb-Uai">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
@@ -326,7 +332,7 @@
             </objects>
             <point key="canvasLocation" x="-250" y="60"/>
         </scene>
-        <!--Contact View Controller-->
+        <!--Contact View Controller - Contact-->
         <scene sceneID="YaK-Wr-C1X">
             <objects>
                 <tableViewController id="rXc-xK-s12" customClass="ContactViewController" sceneMemberID="viewController">
@@ -396,7 +402,7 @@
                             <outlet property="delegate" destination="rXc-xK-s12" id="OK7-RD-fek"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Fwa-Zz-Kps"/>
+                    <navigationItem key="navigationItem" title="Contact" id="Fwa-Zz-Kps"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="g1v-bU-lPa" id="xIV-GX-srZ"/>
                     </connections>
@@ -706,6 +712,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ym2-Pb-4HW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1213" y="60"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="W2B-Tn-uwf">
+            <objects>
+                <viewController id="5gn-r7-j19" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="acs-Mi-EaJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="nCf-OR-Ykp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Qq-ym-x6z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gun-Pd-E3L">
+                                <rect key="frame" x="48" y="156" width="225" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ct5-sU-Kfe">
+                                <rect key="frame" x="48" y="194" width="225" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RC-GC-db1">
+                                <rect key="frame" x="131" y="238" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8YX-ce-x5E" kind="modal" modalTransitionStyle="flipHorizontal" id="UK8-pd-xev"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xHg-Nf-ySq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2279" y="60"/>
         </scene>
         <!--Navigation Controller - Settings-->
         <scene sceneID="DpC-YT-2qp">
