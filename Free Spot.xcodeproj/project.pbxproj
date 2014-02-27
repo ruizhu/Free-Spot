@@ -12,6 +12,8 @@
 		67011DD918A8869F00840E28 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD818A8869F00840E28 /* Settings.plist */; };
 		676FF39918B15695008406C5 /* Message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39818B15695008406C5 /* Message.plist */; };
 		676FF39B18B15BAB008406C5 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39A18B15BAB008406C5 /* Contacts.plist */; };
+		6775FEA318BEC383008A2961 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6775FEA218BEC383008A2961 /* SignInViewController.m */; };
+		6775FEA618BEC840008A2961 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6775FEA518BEC840008A2961 /* SignUpViewController.m */; };
 		679A395718B446F600D15585 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395618B446F600D15585 /* ContactViewController.m */; };
 		679A395A18B44A4800D15585 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395918B44A4800D15585 /* UserViewController.m */; };
 		679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A395C18B44A5C00D15585 /* ActivityViewController.m */; };
@@ -48,6 +50,10 @@
 		67011DD818A8869F00840E28 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		676FF39818B15695008406C5 /* Message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Message.plist; sourceTree = "<group>"; };
 		676FF39A18B15BAB008406C5 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
+		6775FEA118BEC383008A2961 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		6775FEA218BEC383008A2961 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		6775FEA418BEC840008A2961 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6775FEA518BEC840008A2961 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		679A395518B446F600D15585 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		679A395618B446F600D15585 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		679A395818B44A4800D15585 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 				679A395618B446F600D15585 /* ContactViewController.m */,
 				679A396118B4510200D15585 /* SettingsViewController.h */,
 				679A396218B4510200D15585 /* SettingsViewController.m */,
+				6775FEA118BEC383008A2961 /* SignInViewController.h */,
+				6775FEA218BEC383008A2961 /* SignInViewController.m */,
+				6775FEA418BEC840008A2961 /* SignUpViewController.h */,
+				6775FEA518BEC840008A2961 /* SignUpViewController.m */,
 				679A528518A844CD00FC6C60 /* Images.xcassets */,
 				679A527118A844CD00FC6C60 /* Supporting Files */,
 			);
@@ -289,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6775FEA318BEC383008A2961 /* SignInViewController.m in Sources */,
 				679A395718B446F600D15585 /* ContactViewController.m in Sources */,
 				679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */,
 				679A395A18B44A4800D15585 /* UserViewController.m in Sources */,
@@ -296,6 +307,7 @@
 				679A527718A844CD00FC6C60 /* main.m in Sources */,
 				679A396018B44A6D00D15585 /* MessageViewController.m in Sources */,
 				679A396318B4510200D15585 /* SettingsViewController.m in Sources */,
+				6775FEA618BEC840008A2961 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

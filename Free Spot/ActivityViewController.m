@@ -12,7 +12,6 @@
     NSDictionary *activityList;
     NSArray *justActivityName;
 }
-
 @end
 
 @implementation ActivityViewController
@@ -70,7 +69,7 @@
     
     cell.textLabel.text = justActivityName[indexPath.row];
     cell.detailTextLabel.text = activityList[justActivityName[indexPath.row]];
-    
+    cell.backgroundView = [[UIImageView alloc] initWithImage:[ [UIImage imageNamed:@"CardCell"] stretchableImageWithLeftCapWidth:0.0 topCapHeight:5.0] ];
     return cell;
 }
 
