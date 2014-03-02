@@ -7,13 +7,16 @@
 //
 
 #import "SignInViewController.h"
+#import <QuartzCore/QuartzCore.h>
+
 
 @interface SignInViewController ()
+@property (nonatomic,strong) UIImageView *fieldsBackground;
 
 @end
 
 @implementation SignInViewController
-
+@synthesize fieldsBackground;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,8 +28,8 @@
 
 - (void)viewDidLoad
 {
-    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
-    
+    //[[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
+    [self.logInView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
@@ -38,8 +41,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)unwindToSignin:(UIStoryboardSegue *)segue{
-    
-}
+
 
 @end

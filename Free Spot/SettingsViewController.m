@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "InitinalViewController.h"
 
 @interface SettingsViewController () {
     NSDictionary *settingsList;
@@ -72,6 +73,12 @@
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
         return @"Settings";
+}
+
+- (IBAction)logOutButtonTapAction:(id)sender {
+    [PFUser logOut];
+    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 /*

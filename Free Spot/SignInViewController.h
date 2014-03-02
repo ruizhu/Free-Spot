@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 Rui Zhu. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 
-@interface SignInViewController : UIViewController
+@interface SignInViewController : PFLogInViewController
 
-- (IBAction)unwindToSignin: (UIStoryboardSegue *)segue;
 
 @end

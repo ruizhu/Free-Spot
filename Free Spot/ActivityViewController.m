@@ -8,6 +8,7 @@
 
 #import "ActivityViewController.h"
 
+
 @interface ActivityViewController (){
     //UI demo code, delete later, 2lines
     NSDictionary *activityList;
@@ -51,6 +52,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -78,6 +81,7 @@
     
     return cell;
 }
+
 
 /*
  // Override to support conditional editing of the table view.

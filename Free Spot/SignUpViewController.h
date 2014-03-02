@@ -6,8 +6,9 @@
 //  Copyright (c) 2014年 Rui Zhu. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 
-@interface SignUpViewController : UIViewController
+@interface SignUpViewController : PFSignUpViewController
 
 @end

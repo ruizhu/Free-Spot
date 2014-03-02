@@ -14,6 +14,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //connect to Parse
+    [Parse setApplicationId:@"jl3vToCdRPTbcGbzJC3T0OcGUJzmvgYDY0VxGGwm"
+                  clientKey:@"5OfxXoYoNiUfjsS5Ji3p5ZeOer2c0xzkTY3H1fYL"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:80.0f/255.0f green:152.0f/255.0f blue:250.0f/255.0f alpha:1.0f]];
