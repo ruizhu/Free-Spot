@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x33CCCC)];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x38a6ce)];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     
     [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
