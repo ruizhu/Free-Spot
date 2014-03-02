@@ -1,14 +1,20 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "LunchImage.png"
+      "filename" : "background.png"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "LunchImage@2x.png"
+      "filename" : "background@2x.png"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "background@R4.png",
+      "subtype" : "retina4",
+      "scale" : "2x"
     }
   ],
   "info" : {

@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 Rui Zhu. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >>16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -15,11 +16,12 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x38a6ce)];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:80.0f/255.0f green:152.0f/255.0f blue:250.0f/255.0f alpha:1.0f]];
+    //line below use UIColorFromRGD, another choice
+    //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x38a6ce)];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    
     [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
-    
     [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
     [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
     
