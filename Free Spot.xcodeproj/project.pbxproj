@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A53B5718C407FC00D6D800 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A53B5618C407FC00D6D800 /* Parse.framework */; };
+		36A53B5A18C40B3200D6D800 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5918C40B3200D6D800 /* MapViewController.m */; };
+		36A53B5D18C40BD900D6D800 /* myAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5C18C40BD900D6D800 /* myAnnotation.m */; };
+		36A53B6018C40C0400D6D800 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5F18C40C0400D6D800 /* LocationDataController.m */; };
+		36A53B6318C40C1D00D6D800 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B6218C40C1D00D6D800 /* Location.m */; };
+		36A53B6518C40D6200D6D800 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A53B6418C40D6200D6D800 /* MapKit.framework */; };
 		67011DD518A8867800840E28 /* Activity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD418A8867800840E28 /* Activity.plist */; };
 		67011DD718A8868500840E28 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD618A8868500840E28 /* User.plist */; };
 		67011DD918A8869F00840E28 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD818A8869F00840E28 /* Settings.plist */; };
-		674D775318C3D7A3005D0844 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D775218C3D7A3005D0844 /* Parse.framework */; };
 		674D775518C3D7C8005D0844 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D775418C3D7C8005D0844 /* MessageUI.framework */; };
 		674D775718C3D7D0005D0844 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D775618C3D7D0005D0844 /* SystemConfiguration.framework */; };
 		674D775918C3D7D8005D0844 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D775818C3D7D8005D0844 /* StoreKit.framework */; };
@@ -57,10 +62,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A53B5618C407FC00D6D800 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		36A53B5818C40B3200D6D800 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		36A53B5918C40B3200D6D800 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		36A53B5B18C40BD900D6D800 /* myAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnnotation.h; sourceTree = "<group>"; };
+		36A53B5C18C40BD900D6D800 /* myAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAnnotation.m; sourceTree = "<group>"; };
+		36A53B5E18C40C0400D6D800 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		36A53B5F18C40C0400D6D800 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
+		36A53B6118C40C1D00D6D800 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		36A53B6218C40C1D00D6D800 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		36A53B6418C40D6200D6D800 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		67011DD418A8867800840E28 /* Activity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Activity.plist; sourceTree = "<group>"; };
 		67011DD618A8868500840E28 /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
 		67011DD818A8869F00840E28 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
-		674D775218C3D7A3005D0844 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		674D775418C3D7C8005D0844 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		674D775618C3D7D0005D0844 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		674D775818C3D7D8005D0844 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -113,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A53B6518C40D6200D6D800 /* MapKit.framework in Frameworks */,
 				674D776718C3D819005D0844 /* AudioToolbox.framework in Frameworks */,
 				674D776518C3D80D005D0844 /* CFNetwork.framework in Frameworks */,
 				674D776318C3D804005D0844 /* CoreLocation.framework in Frameworks */,
@@ -123,9 +138,9 @@
 				674D775918C3D7D8005D0844 /* StoreKit.framework in Frameworks */,
 				674D775718C3D7D0005D0844 /* SystemConfiguration.framework in Frameworks */,
 				674D775518C3D7C8005D0844 /* MessageUI.framework in Frameworks */,
+				36A53B5718C407FC00D6D800 /* Parse.framework in Frameworks */,
 				679A526D18A844CD00FC6C60 /* CoreGraphics.framework in Frameworks */,
 				679A526F18A844CD00FC6C60 /* UIKit.framework in Frameworks */,
-				674D775318C3D7A3005D0844 /* Parse.framework in Frameworks */,
 				679A526B18A844CD00FC6C60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +180,8 @@
 		679A526918A844CD00FC6C60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36A53B6418C40D6200D6D800 /* MapKit.framework */,
+				36A53B5618C407FC00D6D800 /* Parse.framework */,
 				674D776618C3D819005D0844 /* AudioToolbox.framework */,
 				674D776418C3D80D005D0844 /* CFNetwork.framework */,
 				674D776218C3D804005D0844 /* CoreLocation.framework */,
@@ -175,7 +192,6 @@
 				674D775818C3D7D8005D0844 /* StoreKit.framework */,
 				674D775618C3D7D0005D0844 /* SystemConfiguration.framework */,
 				674D775418C3D7C8005D0844 /* MessageUI.framework */,
-				674D775218C3D7A3005D0844 /* Parse.framework */,
 				679A526A18A844CD00FC6C60 /* Foundation.framework */,
 				679A526C18A844CD00FC6C60 /* CoreGraphics.framework */,
 				679A526E18A844CD00FC6C60 /* UIKit.framework */,
@@ -208,6 +224,14 @@
 				6775FEA518BEC840008A2961 /* SignUpViewController.m */,
 				679A528518A844CD00FC6C60 /* Images.xcassets */,
 				679A527118A844CD00FC6C60 /* Supporting Files */,
+				36A53B5818C40B3200D6D800 /* MapViewController.h */,
+				36A53B5B18C40BD900D6D800 /* myAnnotation.h */,
+				36A53B5E18C40C0400D6D800 /* LocationDataController.h */,
+				36A53B5F18C40C0400D6D800 /* LocationDataController.m */,
+				36A53B6118C40C1D00D6D800 /* Location.h */,
+				36A53B6218C40C1D00D6D800 /* Location.m */,
+				36A53B5C18C40BD900D6D800 /* myAnnotation.m */,
+				36A53B5918C40B3200D6D800 /* MapViewController.m */,
 			);
 			path = "Free Spot";
 			sourceTree = "<group>";
@@ -354,13 +378,17 @@
 				6775FEA318BEC383008A2961 /* SignInViewController.m in Sources */,
 				679A395718B446F600D15585 /* ContactViewController.m in Sources */,
 				674D776A18C3EC36005D0844 /* InitialViewController.m in Sources */,
+				36A53B6018C40C0400D6D800 /* LocationDataController.m in Sources */,
 				679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */,
+				36A53B5D18C40BD900D6D800 /* myAnnotation.m in Sources */,
 				679A395A18B44A4800D15585 /* UserViewController.m in Sources */,
 				679A527B18A844CD00FC6C60 /* AppDelegate.m in Sources */,
+				36A53B6318C40C1D00D6D800 /* Location.m in Sources */,
 				679A527718A844CD00FC6C60 /* main.m in Sources */,
 				679A396018B44A6D00D15585 /* MessageViewController.m in Sources */,
 				679A396318B4510200D15585 /* SettingsViewController.m in Sources */,
 				6775FEA618BEC840008A2961 /* SignUpViewController.m in Sources */,
+				36A53B5A18C40B3200D6D800 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +520,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ruizhu/Desktop/Free-Spot\\ Old",
+					"/Users/kanghongcheng/Desktop/Free-Spot",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Free Spot/Free Spot-Prefix.pch";
@@ -512,6 +541,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ruizhu/Desktop/Free-Spot\\ Old",
+					"/Users/kanghongcheng/Desktop/Free-Spot",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Free Spot/Free Spot-Prefix.pch";
