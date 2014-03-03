@@ -33,12 +33,12 @@
         // Customize the Log In View Controller
         SignInViewController *logInViewController = [[SignInViewController alloc] init];
         logInViewController.delegate = self;
-        logInViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton;
+        logInViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton | PFLogInFieldsLogInButton | PFLogInFieldsPasswordForgotten;
         
         // Customize the Sign Up View Controller
         SignUpViewController *signUpViewController = [[SignUpViewController alloc] init];
         signUpViewController.delegate = self;
-        signUpViewController.fields = PFSignUpFieldsUsernameAndPassword | PFSignUpFieldsEmail | PFSignUpFieldsDismissButton;
+        signUpViewController.fields = PFSignUpFieldsDefault;
         logInViewController.signUpController = signUpViewController;
         
         // Present Log In View Controller
@@ -76,15 +76,17 @@
     BOOL informationComplete = YES;
     for (id key in info) {
         NSString *field = [info objectForKey:key];
-        if (!field || field.length == 0) {
+        if (!field || field.length == 0 ) {
             informationComplete = NO;
             break;
         }
     }
     
+    
     if (!informationComplete) {
         [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Information", nil) message:NSLocalizedString(@"Make sure you fill out all of the information!", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
     }
+    
     
     return informationComplete;
 }
