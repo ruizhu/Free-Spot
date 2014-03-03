@@ -9,6 +9,6 @@
 #import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 
-@interface InitinalViewController : UITabBarController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface InitialViewController : UITabBarController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 @end

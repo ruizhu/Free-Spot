@@ -7,7 +7,7 @@
 //
 
 #import "SettingsViewController.h"
-#import "InitinalViewController.h"
+#import "InitialViewController.h"
 
 @interface SettingsViewController () {
     NSDictionary *settingsList;
@@ -78,7 +78,6 @@
 - (IBAction)logOutButtonTapAction:(id)sender {
     [PFUser logOut];
     [self.navigationController popViewControllerAnimated:YES];
-    
 }
 
 /*

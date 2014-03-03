@@ -21,7 +21,7 @@
 		674D776318C3D804005D0844 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D776218C3D804005D0844 /* CoreLocation.framework */; };
 		674D776518C3D80D005D0844 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D776418C3D80D005D0844 /* CFNetwork.framework */; };
 		674D776718C3D819005D0844 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674D776618C3D819005D0844 /* AudioToolbox.framework */; };
-		674D776A18C3EC36005D0844 /* InitinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D776918C3EC36005D0844 /* InitinalViewController.m */; };
+		674D776A18C3EC36005D0844 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D776918C3EC36005D0844 /* InitialViewController.m */; };
 		676FF39918B15695008406C5 /* Message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39818B15695008406C5 /* Message.plist */; };
 		676FF39B18B15BAB008406C5 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FF39A18B15BAB008406C5 /* Contacts.plist */; };
 		6775FEA318BEC383008A2961 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6775FEA218BEC383008A2961 /* SignInViewController.m */; };
@@ -71,8 +71,8 @@
 		674D776218C3D804005D0844 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		674D776418C3D80D005D0844 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		674D776618C3D819005D0844 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		674D776818C3EC36005D0844 /* InitinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitinalViewController.h; sourceTree = "<group>"; };
-		674D776918C3EC36005D0844 /* InitinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitinalViewController.m; sourceTree = "<group>"; };
+		674D776818C3EC36005D0844 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		674D776918C3EC36005D0844 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		676FF39818B15695008406C5 /* Message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Message.plist; sourceTree = "<group>"; };
 		676FF39A18B15BAB008406C5 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
 		6775FEA118BEC383008A2961 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
@@ -190,8 +190,8 @@
 				679A527918A844CD00FC6C60 /* AppDelegate.h */,
 				679A527A18A844CD00FC6C60 /* AppDelegate.m */,
 				679A527C18A844CD00FC6C60 /* Main.storyboard */,
-				674D776818C3EC36005D0844 /* InitinalViewController.h */,
-				674D776918C3EC36005D0844 /* InitinalViewController.m */,
+				674D776818C3EC36005D0844 /* InitialViewController.h */,
+				674D776918C3EC36005D0844 /* InitialViewController.m */,
 				679A395B18B44A5C00D15585 /* ActivityViewController.h */,
 				679A395C18B44A5C00D15585 /* ActivityViewController.m */,
 				679A395818B44A4800D15585 /* UserViewController.h */,
@@ -353,7 +353,7 @@
 			files = (
 				6775FEA318BEC383008A2961 /* SignInViewController.m in Sources */,
 				679A395718B446F600D15585 /* ContactViewController.m in Sources */,
-				674D776A18C3EC36005D0844 /* InitinalViewController.m in Sources */,
+				674D776A18C3EC36005D0844 /* InitialViewController.m in Sources */,
 				679A395D18B44A5C00D15585 /* ActivityViewController.m in Sources */,
 				679A395A18B44A4800D15585 /* UserViewController.m in Sources */,
 				679A527B18A844CD00FC6C60 /* AppDelegate.m in Sources */,

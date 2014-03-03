@@ -6,15 +6,15 @@
 //  Copyright (c) 2014年 Rui Zhu. All rights reserved.
 //
 
-#import "InitinalViewController.h"
+#import "InitialViewController.h"
 #import "SignInViewController.h"
 #import "SignUpViewController.h"
 
-@interface InitinalViewController ()
+@interface InitialViewController ()
 
 @end
 
-@implementation InitinalViewController
+@implementation InitialViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
