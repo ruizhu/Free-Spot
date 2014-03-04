@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A53B5718C407FC00D6D800 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A53B5618C407FC00D6D800 /* Parse.framework */; };
 		36A53B5A18C40B3200D6D800 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5918C40B3200D6D800 /* MapViewController.m */; };
 		36A53B5D18C40BD900D6D800 /* myAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5C18C40BD900D6D800 /* myAnnotation.m */; };
 		36A53B6018C40C0400D6D800 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B5F18C40C0400D6D800 /* LocationDataController.m */; };
 		36A53B6318C40C1D00D6D800 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A53B6218C40C1D00D6D800 /* Location.m */; };
 		36A53B6518C40D6200D6D800 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A53B6418C40D6200D6D800 /* MapKit.framework */; };
+		4D384A8A18C576E900337E31 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D384A8918C576E900337E31 /* Parse.framework */; };
 		67011DD518A8867800840E28 /* Activity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD418A8867800840E28 /* Activity.plist */; };
 		67011DD718A8868500840E28 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD618A8868500840E28 /* User.plist */; };
 		67011DD918A8869F00840E28 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67011DD818A8869F00840E28 /* Settings.plist */; };
@@ -62,7 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36A53B5618C407FC00D6D800 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		36A53B5818C40B3200D6D800 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		36A53B5918C40B3200D6D800 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		36A53B5B18C40BD900D6D800 /* myAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnnotation.h; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		36A53B6118C40C1D00D6D800 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		36A53B6218C40C1D00D6D800 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		36A53B6418C40D6200D6D800 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4D384A8918C576E900337E31 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		67011DD418A8867800840E28 /* Activity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Activity.plist; sourceTree = "<group>"; };
 		67011DD618A8868500840E28 /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
 		67011DD818A8869F00840E28 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
@@ -131,6 +131,7 @@
 				674D776718C3D819005D0844 /* AudioToolbox.framework in Frameworks */,
 				674D776518C3D80D005D0844 /* CFNetwork.framework in Frameworks */,
 				674D776318C3D804005D0844 /* CoreLocation.framework in Frameworks */,
+				4D384A8A18C576E900337E31 /* Parse.framework in Frameworks */,
 				674D776118C3D7FB005D0844 /* libz.dylib in Frameworks */,
 				674D775F18C3D7F4005D0844 /* MobileCoreServices.framework in Frameworks */,
 				674D775D18C3D7EB005D0844 /* QuartzCore.framework in Frameworks */,
@@ -138,7 +139,6 @@
 				674D775918C3D7D8005D0844 /* StoreKit.framework in Frameworks */,
 				674D775718C3D7D0005D0844 /* SystemConfiguration.framework in Frameworks */,
 				674D775518C3D7C8005D0844 /* MessageUI.framework in Frameworks */,
-				36A53B5718C407FC00D6D800 /* Parse.framework in Frameworks */,
 				679A526D18A844CD00FC6C60 /* CoreGraphics.framework in Frameworks */,
 				679A526F18A844CD00FC6C60 /* UIKit.framework in Frameworks */,
 				679A526B18A844CD00FC6C60 /* Foundation.framework in Frameworks */,
@@ -180,8 +180,8 @@
 		679A526918A844CD00FC6C60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D384A8918C576E900337E31 /* Parse.framework */,
 				36A53B6418C40D6200D6D800 /* MapKit.framework */,
-				36A53B5618C407FC00D6D800 /* Parse.framework */,
 				674D776618C3D819005D0844 /* AudioToolbox.framework */,
 				674D776418C3D80D005D0844 /* CFNetwork.framework */,
 				674D776218C3D804005D0844 /* CoreLocation.framework */,
@@ -521,6 +521,7 @@
 					"$(inherited)",
 					"/Users/ruizhu/Desktop/Free-Spot\\ Old",
 					"/Users/kanghongcheng/Desktop/Free-Spot",
+					"/Users/kuray/Desktop/Free-Spot",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Free Spot/Free Spot-Prefix.pch";
@@ -542,6 +543,7 @@
 					"$(inherited)",
 					"/Users/ruizhu/Desktop/Free-Spot\\ Old",
 					"/Users/kanghongcheng/Desktop/Free-Spot",
+					"/Users/kuray/Desktop/Free-Spot",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Free Spot/Free Spot-Prefix.pch";
